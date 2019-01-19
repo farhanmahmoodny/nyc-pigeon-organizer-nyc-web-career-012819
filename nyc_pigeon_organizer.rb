@@ -8,7 +8,6 @@ count += 1
 end
 pigeon_list.each do |name|
   name[data.keys]
-end
 end  
 pigeon_list
 end
