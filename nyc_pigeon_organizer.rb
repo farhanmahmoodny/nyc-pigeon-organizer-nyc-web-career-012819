@@ -7,8 +7,7 @@ pigeon_list[array[count]] = {}
 count += 1
 end
 pigeon_list.each do |name|
-  data.each do |key|
-  pigeon_list[name][key] = {}
+  name[data.keys]
 end
 end  
 pigeon_list
