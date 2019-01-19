@@ -22,7 +22,7 @@ pigeon_list.each do |names, keys|
   end
   data[:lives].each do |location, name|
     if name.include?(names)
-      pigeon_list[name][:lives] << location.to_s
+      pigeon_list[name][:lives] << location
     end
   end
 end
