@@ -7,7 +7,7 @@ pigeon_list[array[count]] = {}
 count += 1
 end
 data[:color].each do |color, name|
-  if name.include?("Theo")
+  if name.values.include?("Theo")
     pigeon_list["Theo"] << color
   end
 end
