@@ -15,7 +15,12 @@ pigeon_list.each do |names, keys|
       pigeon_list[names][:color] << color.to_s
     end
   end
+  data[:gender].each do |m_f, name|
+    if name.include?(names)
+      pigeon_list[names][:gender] << m_f.to_s
+    end
+  end
+  
 end
-
 pigeon_list
 end
