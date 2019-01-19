@@ -6,7 +6,7 @@ until count == array.length
 pigeon_list[array[count]] = {}
 count += 1
 end
-data[:colors].each do |color, name|
+data[:colors].collect do |color, name|
   if name.include("Theo")
     pigeon_list["Theo"] << color
   end
