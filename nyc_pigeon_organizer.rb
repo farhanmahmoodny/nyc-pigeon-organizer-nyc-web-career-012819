@@ -9,5 +9,6 @@ pigeon_list[array[count]][:gender] = []
 pigeon_list[array[count]][:lives] = []
 count += 1
 end
+
 pigeon_list
 end
