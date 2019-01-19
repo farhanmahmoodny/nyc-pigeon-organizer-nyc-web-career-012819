@@ -11,7 +11,7 @@ count += 1
 end
 pigeon_list.each do |names, keys|
   data[:color].each do |color, name|
-    if name.values.include?(names)
+    if name.include?(names)
       pigeon_list[names][:color] << color
     end
   end
