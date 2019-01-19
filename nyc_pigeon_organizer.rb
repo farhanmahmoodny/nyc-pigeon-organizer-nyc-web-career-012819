@@ -6,7 +6,10 @@ until count == array.length
 pigeon_list[array[count]] = {}
 count += 1
 end
+pigeon_list.each do |name|
 data.each do |key, value|
-  pigeon_list[]
+  pigeon_list[name][key] = {}
+end
+end
 pigeon_list
 end
