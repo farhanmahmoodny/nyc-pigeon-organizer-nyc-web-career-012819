@@ -6,6 +6,12 @@ until count == array.length
 pigeon_list[array[count]] = {}
 count += 1
 end
-
+pigeon_list.each do |names|
+data.each do |key, value|
+  if value.values.include?(name)
+    pigeon_list[key] = {}
+  end
+end
+end
 pigeon_list
 end
