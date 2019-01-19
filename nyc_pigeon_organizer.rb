@@ -1,3 +1,7 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+pigeon_list = {}
+data[:lives].values.each do |name|
+  pigeon_list[name] = {}
+end
+pigeon_list
 end
