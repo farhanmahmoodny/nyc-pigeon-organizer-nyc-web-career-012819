@@ -8,7 +8,7 @@ count += 1
 end
 data[:color].each do |color, name|
   if name.include?("Theo")
-    pigeon_list["Theo"] << color
+    pigeon_list["Theo"][:color] = color
   end
 end
 pigeon_list
