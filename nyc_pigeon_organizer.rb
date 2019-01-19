@@ -12,7 +12,7 @@ end
 pigeon_list.each do |names, keys|
   data[:color].each do |color, name|
     if name.include?(names)
-      pigeon_list[names][:color] << color
+      pigeon_list[names][:color] << color.to_s
     end
   end
 end
