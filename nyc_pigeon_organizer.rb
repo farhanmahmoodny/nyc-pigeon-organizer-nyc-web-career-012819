@@ -20,7 +20,6 @@ pigeon_list.each do |names, keys|
       pigeon_list[names][:gender] << m_f.to_s
     end
   end
-
 end
 pigeon_list
 end
