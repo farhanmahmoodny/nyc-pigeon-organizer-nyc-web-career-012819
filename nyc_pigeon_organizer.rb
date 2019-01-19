@@ -9,12 +9,13 @@ pigeon_list[array[count]][:gender] = []
 pigeon_list[array[count]][:lives] = []
 count += 1
 end
-pigeon_list.each do |names, keys|
+pigeon_list.each do |names|
   data[:color].each do |color, name|
     if name.include?(names)
       pigeon_list[names][:color] << color.to_s
     end
   end
 end
+
 pigeon_list
 end
